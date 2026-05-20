@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PrimaryButton">
+        <attr name="buttonText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SearchBarView">
+        <attr name="searchHint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingView">
+        <attr name="loadingMessage" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="EmptyStateView">
+        <attr name="emptyTitle" format="string" />
+        <attr name="emptySubtitle" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickBite</string>
+    <string name="login_title">Welcome to QuickBite</string>
+    <string name="login_subtitle">Discover delicious meals</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_loading">Signing in...</string>
+    <string name="email_error">Please enter a valid email</string>
+    <string name="password_error">Password must be at least 6 characters</string>
+    <string name="login_error">Invalid email or password</string>
+    <string name="search_hint">Search meals...</string>
+    <string name="categories_title">Categories</string>
+    <string name="featured_meals_title">Featured Meals</string>
+    <string name="ingredients_title">Ingredients</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="favorites_title">Favorites</string>
+    <string name="profile_title">Profile</string>
+    <string name="home_title">Home</string>
+    <string name="logout_button">Logout</string>
+    <string name="no_favorites">No favorites yet</string>
+    <string name="no_favorites_subtitle">Start exploring and save your favorite meals</string>
+    <string name="remove_favorite">Remove from favorites</string>
+    <string name="error_loading">Something went wrong</string>
+    <string name="retry_button">Retry</string>
+    <string name="empty_search_title">No results found</string>
+    <string name="empty_search_subtitle">Try searching for something else</string>
+    <string name="add_favorite">Add to favorites</string>
+</resources>
