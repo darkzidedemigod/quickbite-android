@@ -8,13 +8,14 @@ import com.quickbite.app.ui.detail.MealDetailFragment
 import com.quickbite.app.ui.favorites.FavoritesFragment
 import com.quickbite.app.ui.home.HomeFragment
 import com.quickbite.app.ui.login.LoginActivity
-import com.quickbite.app.ui.login.LoginViewModel
 import com.quickbite.app.ui.main.MainActivity
 import com.quickbite.app.ui.profile.ProfileFragment
 import com.quickbite.app.viewmodels.FavoritesViewModel
 import com.quickbite.app.viewmodels.HomeViewModel
+import com.quickbite.app.viewmodels.LoginViewModel
 import com.quickbite.app.viewmodels.MealDetailViewModel
 import com.quickbite.app.viewmodels.ProfileViewModel
+import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton
 
@@ -41,6 +42,7 @@ interface AppComponent {
 
     @Component.Builder
     interface Builder {
+        @BindsInstance
         fun application(application: Application): Builder
         fun build(): AppComponent
     }

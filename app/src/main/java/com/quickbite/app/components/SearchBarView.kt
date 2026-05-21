@@ -6,6 +6,7 @@ import android.text.TextWatcher
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.inputmethod.EditorInfo
+import androidx.annotation.StringRes
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
@@ -59,6 +60,10 @@ class SearchBarView @JvmOverloads constructor(
 
     fun setHint(hint: String) {
         searchLayout.hint = hint
+    }
+
+    fun setHint(@StringRes hintResId: Int) {
+        searchLayout.setHint(hintResId)
     }
 
     fun getText(): String {

@@ -1,0 +1,666 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\a9085606a76bcf327dd4d5e5045441c8\transformed\viewbinding-8.13.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3a5d0762a665ae4924342ca17952bb9c\transformed\navigation-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-android:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\2e6d89e6298468a3ed4605fc045d683e\transformed\navigation-common-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\104708c4e3771dca7b87f1ddc6b0ab82\transformed\navigation-fragment-2.9.8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\44625a89e74b650c72888eeff2863799\transformed\navigation-fragment-ktx-2.9.8\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b104b96eb489483b3cf1e2874aee0669\transformed\navigation-ui-ktx-2.9.8\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\97f3425e258ef0cedae248e9283981ba\transformed\navigation-ui-2.9.8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.14.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4a94c8299c0b1abfdef91337fdf6cbd7\transformed\material-1.14.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c4d4d3787dabc525cf5ec361c76b8638\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\fb57dd660df4d59185af455b16883a98\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\eb6878fc3b64dd2d536c237ba1f664bc\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5689b86f61f4b4e728e8c612756791d8\transformed\swiperefreshlayout-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5022de6374e94589fed074969bec3d79\transformed\coordinatorlayout-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5c8a3f0f43f5292d0bea32ae24684447\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b4f7a5012290257d537d3b8704632bfb\transformed\recyclerview-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:5.0.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4083db9c6b4cbcc04004ee42852415ad\transformed\glide-5.0.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\54a1d1d3bff9310e9194b175f8be0a88\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d053ff9ee6c076cbc7fbd7855f59772c\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f1af011a18c0bdec8695c58ebab20f3e\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\78c9b7637b40ebfa603f9c93c2ca5e0b\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1f3144e8dce237e674128bbfe8527027\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\809c7107fd3db55753dbf1a6fed54c7a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\ad2e8e734927bc6bca4eff9933b3c429\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\83063a847ce7152c6c1f26a85826d2a2\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6a7da4b86fd68c9ef61fe52644d3ebea\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:15:1-19:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\0ba159e71f213fab2088b0f7bdd64fe5\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\78f80898894b193553770d8038c5f6ad\transformed\lifecycle-viewmodel-savedstate\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\79c3bd6197cb1d44d0a0bd328b730bd3\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\66e36413fa086d649c9648dd091b6b22\transformed\savedstate-ktx-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\31d307c868850afc02b43ebe5f749954\transformed\savedstate\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\bbca00a83eb74caf58593bd3cc9e7335\transformed\lifecycle-runtime\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f0e5a05e71edb6f01c4a59528a6c8be5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\98dfa1291cf4f2095ce07d91261efa74\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\fbcbb543523547000653aaaade960355\transformed\lifecycle-viewmodel-2.10.0\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1d7d774aa5c2be401532798ae9cec765\transformed\lifecycle-viewmodel\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f6b35216061e66225f899e1374165a79\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6d516a21a69c7b2daec5f43e516099f8\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\a9bfdc547843eda9e260fceaa28c07ad\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\908492e1be97e07e7f231f646806a63d\transformed\lifecycle-livedata-core-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\9910635ec596d4fd32ed1a1da69aeeb7\transformed\lifecycle-livedata-2.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b1837cf9ed95c730edf9803e9a343002\transformed\lifecycle-livedata-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d1479f671c6e0c9bba0a3ec0b8ce5005\transformed\lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e136745e8f64b36718d35fbf1598148f\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\70ea9368f7c08dfa2831e04c86282f08\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\37e756821e3fe66bf26af89e0813d5b4\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\9605efba6889ca2bae3ac448e3d57e47\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\0e0997aa0b51e08991ac95dc884e2576\transformed\datastore-preferences-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1cfb989114cbfca86022d80650bee87b\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\05e658f9059d6c3aff76bdb39960a486\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4992422416afd6462fd17ef1ece08987\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8395da0a2e60d3601512d19ddd315a8e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5dfbace423080d9e5753cc2c6641821a\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e13df19d3ad9e85317889a003478be\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6a83d9ecadc5bc60540255051f300f5b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\440cf9e8abf0252c5ea983ba9c6285dc\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6f29197d89bb37a4314ad43997635332\transformed\customview-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\11a886eb59a1fdc0f93c1d64c25f088b\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\eb7ee72ff55cacfea34f59813d3427d5\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\422ae7b86877f931df9c41981c4cd839\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\550825dad83ef8cca847bbceae17122d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\edb4cc84265c24e8abe50fd46b563db3\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\9653bf557aaf1701bc8c41d4df256543\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e84351048c9cc95fc8a6da5b75ecb9b5\transformed\core-ktx-1.18.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\24fee02d81be03ea5fb19553ba6d96a0\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\fcdc689aa1dea9eda6f7baeac27aac47\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b96c1b33d08e590f729cde64a5ed7775\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\2cdc268240ccc8cd5da41aba05c8cc58\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5ac21e418fac4dee51d588315a54741f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\80d2cb5537f67b2329c7bafe6c7af6ac\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.github.bumptech.glide:gifdecoder:5.0.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d8c4a793b6eb757898dac9f05a995305\transformed\gifdecoder-5.0.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\abcdd0d58aa558960b6b8ae1b93e226c\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3db041721cef5057295bbdac9b4e8ba9\transformed\startup-runtime-1.2.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3cd391240107d46deb41e358cf6be723\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\87fdd9e44548411f7f23babeff2b4ed8\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\2d04c6d8518474fb0eb94c79dea9fc61\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b119f78fc3dad97441d6b08c81df446f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d02d32a872ca7abeadd80e0708c46cc8\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\393c61d15b7f50ff9b683c418b25706c\transformed\firebase-components-19.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\076480feb9dceeff2e7a7a3138f8c15d\transformed\rxandroid-3.0.2\AndroidManifest.xml:15:1-20:12
+MERGED from [com.github.bumptech.glide:disklrucache:5.0.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8549c3ce3cfe12418605b25d0529e587\transformed\disklrucache-5.0.7\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:8:5-67
+MERGED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:8:5-67
+MERGED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:7:5-31:19
+INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:7:5-31:19
+MERGED from [com.google.android.material:material:1.14.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4a94c8299c0b1abfdef91337fdf6cbd7\transformed\material-1.14.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.14.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4a94c8299c0b1abfdef91337fdf6cbd7\transformed\material-1.14.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c4d4d3787dabc525cf5ec361c76b8638\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c4d4d3787dabc525cf5ec361c76b8638\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d053ff9ee6c076cbc7fbd7855f59772c\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d053ff9ee6c076cbc7fbd7855f59772c\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f1af011a18c0bdec8695c58ebab20f3e\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f1af011a18c0bdec8695c58ebab20f3e\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\78c9b7637b40ebfa603f9c93c2ca5e0b\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\78c9b7637b40ebfa603f9c93c2ca5e0b\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1f3144e8dce237e674128bbfe8527027\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1f3144e8dce237e674128bbfe8527027\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\809c7107fd3db55753dbf1a6fed54c7a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\809c7107fd3db55753dbf1a6fed54c7a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\ad2e8e734927bc6bca4eff9933b3c429\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\ad2e8e734927bc6bca4eff9933b3c429\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\83063a847ce7152c6c1f26a85826d2a2\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\83063a847ce7152c6c1f26a85826d2a2\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6d516a21a69c7b2daec5f43e516099f8\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6d516a21a69c7b2daec5f43e516099f8\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\37e756821e3fe66bf26af89e0813d5b4\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\37e756821e3fe66bf26af89e0813d5b4\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4992422416afd6462fd17ef1ece08987\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4992422416afd6462fd17ef1ece08987\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8395da0a2e60d3601512d19ddd315a8e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8395da0a2e60d3601512d19ddd315a8e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b96c1b33d08e590f729cde64a5ed7775\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b96c1b33d08e590f729cde64a5ed7775\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:10:5-20:19
+MERGED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:10:5-20:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3db041721cef5057295bbdac9b4e8ba9\transformed\startup-runtime-1.2.0\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3db041721cef5057295bbdac9b4e8ba9\transformed\startup-runtime-1.2.0\AndroidManifest.xml:23:5-29:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:11:9-41
+	tools:targetApi
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:13:9-47
+	android:name
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:8:9-37
+activity#com.quickbite.app.ui.login.LoginActivity
+ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:16:9-24:20
+	android:exported
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:18:13-36
+	android:theme
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:19:13-51
+	android:name
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:17:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.quickbite.app.ui.main.MainActivity
+ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:26:9-29:54
+	android:exported
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:28:13-37
+	android:theme
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:29:13-51
+	android:name
+		ADDED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml:27:13-49
+uses-sdk
+INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\a9085606a76bcf327dd4d5e5045441c8\transformed\viewbinding-8.13.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\a9085606a76bcf327dd4d5e5045441c8\transformed\viewbinding-8.13.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3a5d0762a665ae4924342ca17952bb9c\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3a5d0762a665ae4924342ca17952bb9c\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\2e6d89e6298468a3ed4605fc045d683e\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\2e6d89e6298468a3ed4605fc045d683e\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\104708c4e3771dca7b87f1ddc6b0ab82\transformed\navigation-fragment-2.9.8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\104708c4e3771dca7b87f1ddc6b0ab82\transformed\navigation-fragment-2.9.8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\44625a89e74b650c72888eeff2863799\transformed\navigation-fragment-ktx-2.9.8\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\44625a89e74b650c72888eeff2863799\transformed\navigation-fragment-ktx-2.9.8\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b104b96eb489483b3cf1e2874aee0669\transformed\navigation-ui-ktx-2.9.8\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b104b96eb489483b3cf1e2874aee0669\transformed\navigation-ui-ktx-2.9.8\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\97f3425e258ef0cedae248e9283981ba\transformed\navigation-ui-2.9.8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.9.8] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\97f3425e258ef0cedae248e9283981ba\transformed\navigation-ui-2.9.8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.14.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4a94c8299c0b1abfdef91337fdf6cbd7\transformed\material-1.14.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.14.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4a94c8299c0b1abfdef91337fdf6cbd7\transformed\material-1.14.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c4d4d3787dabc525cf5ec361c76b8638\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c4d4d3787dabc525cf5ec361c76b8638\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\fb57dd660df4d59185af455b16883a98\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\fb57dd660df4d59185af455b16883a98\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\eb6878fc3b64dd2d536c237ba1f664bc\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\eb6878fc3b64dd2d536c237ba1f664bc\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5689b86f61f4b4e728e8c612756791d8\transformed\swiperefreshlayout-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5689b86f61f4b4e728e8c612756791d8\transformed\swiperefreshlayout-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5022de6374e94589fed074969bec3d79\transformed\coordinatorlayout-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5022de6374e94589fed074969bec3d79\transformed\coordinatorlayout-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5c8a3f0f43f5292d0bea32ae24684447\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5c8a3f0f43f5292d0bea32ae24684447\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b4f7a5012290257d537d3b8704632bfb\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b4f7a5012290257d537d3b8704632bfb\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:5.0.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4083db9c6b4cbcc04004ee42852415ad\transformed\glide-5.0.7\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:5.0.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4083db9c6b4cbcc04004ee42852415ad\transformed\glide-5.0.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\54a1d1d3bff9310e9194b175f8be0a88\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\54a1d1d3bff9310e9194b175f8be0a88\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d053ff9ee6c076cbc7fbd7855f59772c\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d053ff9ee6c076cbc7fbd7855f59772c\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f1af011a18c0bdec8695c58ebab20f3e\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f1af011a18c0bdec8695c58ebab20f3e\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\78c9b7637b40ebfa603f9c93c2ca5e0b\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\78c9b7637b40ebfa603f9c93c2ca5e0b\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1f3144e8dce237e674128bbfe8527027\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1f3144e8dce237e674128bbfe8527027\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\809c7107fd3db55753dbf1a6fed54c7a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\809c7107fd3db55753dbf1a6fed54c7a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\ad2e8e734927bc6bca4eff9933b3c429\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\ad2e8e734927bc6bca4eff9933b3c429\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\83063a847ce7152c6c1f26a85826d2a2\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\83063a847ce7152c6c1f26a85826d2a2\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6a7da4b86fd68c9ef61fe52644d3ebea\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6a7da4b86fd68c9ef61fe52644d3ebea\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:17:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\0ba159e71f213fab2088b0f7bdd64fe5\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\0ba159e71f213fab2088b0f7bdd64fe5\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\78f80898894b193553770d8038c5f6ad\transformed\lifecycle-viewmodel-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\78f80898894b193553770d8038c5f6ad\transformed\lifecycle-viewmodel-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\79c3bd6197cb1d44d0a0bd328b730bd3\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\79c3bd6197cb1d44d0a0bd328b730bd3\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\66e36413fa086d649c9648dd091b6b22\transformed\savedstate-ktx-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\66e36413fa086d649c9648dd091b6b22\transformed\savedstate-ktx-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\31d307c868850afc02b43ebe5f749954\transformed\savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\31d307c868850afc02b43ebe5f749954\transformed\savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\bbca00a83eb74caf58593bd3cc9e7335\transformed\lifecycle-runtime\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\bbca00a83eb74caf58593bd3cc9e7335\transformed\lifecycle-runtime\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f0e5a05e71edb6f01c4a59528a6c8be5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f0e5a05e71edb6f01c4a59528a6c8be5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\98dfa1291cf4f2095ce07d91261efa74\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\98dfa1291cf4f2095ce07d91261efa74\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\fbcbb543523547000653aaaade960355\transformed\lifecycle-viewmodel-2.10.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\fbcbb543523547000653aaaade960355\transformed\lifecycle-viewmodel-2.10.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1d7d774aa5c2be401532798ae9cec765\transformed\lifecycle-viewmodel\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1d7d774aa5c2be401532798ae9cec765\transformed\lifecycle-viewmodel\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f6b35216061e66225f899e1374165a79\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\f6b35216061e66225f899e1374165a79\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6d516a21a69c7b2daec5f43e516099f8\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6d516a21a69c7b2daec5f43e516099f8\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\a9bfdc547843eda9e260fceaa28c07ad\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\a9bfdc547843eda9e260fceaa28c07ad\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\908492e1be97e07e7f231f646806a63d\transformed\lifecycle-livedata-core-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\908492e1be97e07e7f231f646806a63d\transformed\lifecycle-livedata-core-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\9910635ec596d4fd32ed1a1da69aeeb7\transformed\lifecycle-livedata-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\9910635ec596d4fd32ed1a1da69aeeb7\transformed\lifecycle-livedata-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b1837cf9ed95c730edf9803e9a343002\transformed\lifecycle-livedata-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b1837cf9ed95c730edf9803e9a343002\transformed\lifecycle-livedata-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d1479f671c6e0c9bba0a3ec0b8ce5005\transformed\lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d1479f671c6e0c9bba0a3ec0b8ce5005\transformed\lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e136745e8f64b36718d35fbf1598148f\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e136745e8f64b36718d35fbf1598148f\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\70ea9368f7c08dfa2831e04c86282f08\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\70ea9368f7c08dfa2831e04c86282f08\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\37e756821e3fe66bf26af89e0813d5b4\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\37e756821e3fe66bf26af89e0813d5b4\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\9605efba6889ca2bae3ac448e3d57e47\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\9605efba6889ca2bae3ac448e3d57e47\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\0e0997aa0b51e08991ac95dc884e2576\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\0e0997aa0b51e08991ac95dc884e2576\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1cfb989114cbfca86022d80650bee87b\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\1cfb989114cbfca86022d80650bee87b\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\05e658f9059d6c3aff76bdb39960a486\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\05e658f9059d6c3aff76bdb39960a486\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4992422416afd6462fd17ef1ece08987\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\4992422416afd6462fd17ef1ece08987\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8395da0a2e60d3601512d19ddd315a8e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8395da0a2e60d3601512d19ddd315a8e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5dfbace423080d9e5753cc2c6641821a\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5dfbace423080d9e5753cc2c6641821a\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e13df19d3ad9e85317889a003478be\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e13df19d3ad9e85317889a003478be\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6a83d9ecadc5bc60540255051f300f5b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6a83d9ecadc5bc60540255051f300f5b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\440cf9e8abf0252c5ea983ba9c6285dc\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\440cf9e8abf0252c5ea983ba9c6285dc\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6f29197d89bb37a4314ad43997635332\transformed\customview-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6f29197d89bb37a4314ad43997635332\transformed\customview-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\11a886eb59a1fdc0f93c1d64c25f088b\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\11a886eb59a1fdc0f93c1d64c25f088b\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\eb7ee72ff55cacfea34f59813d3427d5\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\eb7ee72ff55cacfea34f59813d3427d5\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\422ae7b86877f931df9c41981c4cd839\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\422ae7b86877f931df9c41981c4cd839\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\550825dad83ef8cca847bbceae17122d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\550825dad83ef8cca847bbceae17122d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\edb4cc84265c24e8abe50fd46b563db3\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\edb4cc84265c24e8abe50fd46b563db3\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\9653bf557aaf1701bc8c41d4df256543\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\9653bf557aaf1701bc8c41d4df256543\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e84351048c9cc95fc8a6da5b75ecb9b5\transformed\core-ktx-1.18.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e84351048c9cc95fc8a6da5b75ecb9b5\transformed\core-ktx-1.18.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\24fee02d81be03ea5fb19553ba6d96a0\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\24fee02d81be03ea5fb19553ba6d96a0\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\fcdc689aa1dea9eda6f7baeac27aac47\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\fcdc689aa1dea9eda6f7baeac27aac47\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b96c1b33d08e590f729cde64a5ed7775\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b96c1b33d08e590f729cde64a5ed7775\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:6:5-44
+MERGED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:6:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\2cdc268240ccc8cd5da41aba05c8cc58\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\2cdc268240ccc8cd5da41aba05c8cc58\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5ac21e418fac4dee51d588315a54741f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5ac21e418fac4dee51d588315a54741f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\80d2cb5537f67b2329c7bafe6c7af6ac\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\80d2cb5537f67b2329c7bafe6c7af6ac\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:5.0.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d8c4a793b6eb757898dac9f05a995305\transformed\gifdecoder-5.0.7\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:5.0.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d8c4a793b6eb757898dac9f05a995305\transformed\gifdecoder-5.0.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\abcdd0d58aa558960b6b8ae1b93e226c\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\abcdd0d58aa558960b6b8ae1b93e226c\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3db041721cef5057295bbdac9b4e8ba9\transformed\startup-runtime-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3db041721cef5057295bbdac9b4e8ba9\transformed\startup-runtime-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3cd391240107d46deb41e358cf6be723\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3cd391240107d46deb41e358cf6be723\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\87fdd9e44548411f7f23babeff2b4ed8\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\87fdd9e44548411f7f23babeff2b4ed8\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\2d04c6d8518474fb0eb94c79dea9fc61\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\2d04c6d8518474fb0eb94c79dea9fc61\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b119f78fc3dad97441d6b08c81df446f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\b119f78fc3dad97441d6b08c81df446f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d02d32a872ca7abeadd80e0708c46cc8\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d02d32a872ca7abeadd80e0708c46cc8\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\393c61d15b7f50ff9b683c418b25706c\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\393c61d15b7f50ff9b683c418b25706c\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\076480feb9dceeff2e7a7a3138f8c15d\transformed\rxandroid-3.0.2\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\076480feb9dceeff2e7a7a3138f8c15d\transformed\rxandroid-3.0.2\AndroidManifest.xml:18:5-43
+MERGED from [com.github.bumptech.glide:disklrucache:5.0.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8549c3ce3cfe12418605b25d0529e587\transformed\disklrucache-5.0.7\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:disklrucache:5.0.7] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8549c3ce3cfe12418605b25d0529e587\transformed\disklrucache-5.0.7\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Darkzide Demigod\Documents\quickbite-android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\c0ab9a5096c6358eeb00991849b069b8\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e89bd8e70c762602eafcf69095bd9854\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\78c9b7637b40ebfa603f9c93c2ca5e0b\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\78c9b7637b40ebfa603f9c93c2ca5e0b\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\782b1b2a51b807f764db14948d63c070\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:27:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:32:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:31:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\5293ac35c62f30d4227768af514814f9\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:34:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\13c2adfe18946a899d1988ab0cf38ed8\transformed\firebase-installations-19.1.0\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\58624bd10258546e0546e5403b02a3cb\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\83063a847ce7152c6c1f26a85826d2a2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\83063a847ce7152c6c1f26a85826d2a2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\83063a847ce7152c6c1f26a85826d2a2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\83063a847ce7152c6c1f26a85826d2a2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6d516a21a69c7b2daec5f43e516099f8\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6d516a21a69c7b2daec5f43e516099f8\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:24:9-32:20
+MERGED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:11:9-19:20
+MERGED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:11:9-19:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3db041721cef5057295bbdac9b4e8ba9\transformed\startup-runtime-1.2.0\AndroidManifest.xml:24:9-28:34
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\3db041721cef5057295bbdac9b4e8ba9\transformed\startup-runtime-1.2.0\AndroidManifest.xml:24:9-28:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\d9366ebd5a8608ec45842870f976fe17\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6d516a21a69c7b2daec5f43e516099f8\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6d516a21a69c7b2daec5f43e516099f8\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6d516a21a69c7b2daec5f43e516099f8\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\e3d29be6c0f2d5bada089d1ff87edd22\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\37e756821e3fe66bf26af89e0813d5b4\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\37e756821e3fe66bf26af89e0813d5b4\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\37e756821e3fe66bf26af89e0813d5b4\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8395da0a2e60d3601512d19ddd315a8e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8395da0a2e60d3601512d19ddd315a8e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\8395da0a2e60d3601512d19ddd315a8e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+permission#com.quickbite.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+uses-permission#com.quickbite.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\6196617e539cfbb0a580b983974ee5ba\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+meta-data#okhttp3.internal.platform.PlatformInitializer
+ADDED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:16:13-18:52
+	android:value
+		ADDED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:18:17-49
+	android:name
+		ADDED from [com.squareup.okhttp3:okhttp-android:5.3.2] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\67e7040eb3b524775b97078eb0264e52\transformed\okhttp-release\AndroidManifest.xml:17:17-77
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Darkzide Demigod\.gradle\caches\8.13\transforms\437060c69ad413f2f21447338df42bce\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

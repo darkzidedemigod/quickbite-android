@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/component_search_bar.xml",
+        "source": "com.quickbite.app-main-63:/layout/component_search_bar.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/component_primary_button.xml",
+        "source": "com.quickbite.app-main-63:/layout/component_primary_button.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/activity_main.xml",
+        "source": "com.quickbite.app-main-63:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/fragment_detail.xml",
+        "source": "com.quickbite.app-main-63:/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/component_empty_state.xml",
+        "source": "com.quickbite.app-main-63:/layout/component_empty_state.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/item_favorite.xml",
+        "source": "com.quickbite.app-main-63:/layout/item_favorite.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/component_meal_card.xml",
+        "source": "com.quickbite.app-main-63:/layout/component_meal_card.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/activity_login.xml",
+        "source": "com.quickbite.app-main-63:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/component_loading.xml",
+        "source": "com.quickbite.app-main-63:/layout/component_loading.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/item_ingredient.xml",
+        "source": "com.quickbite.app-main-63:/layout/item_ingredient.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/fragment_profile.xml",
+        "source": "com.quickbite.app-main-63:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/fragment_favorites.xml",
+        "source": "com.quickbite.app-main-63:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/item_category.xml",
+        "source": "com.quickbite.app-main-63:/layout/item_category.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-60:/layout/fragment_home.xml",
+        "source": "com.quickbite.app-main-63:/layout/fragment_home.xml"
+    }
+]

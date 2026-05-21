@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_fragment_detail.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_component_primary_button.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/component_primary_button.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/navigation_nav_graph.xml.flat",
+        "source": "com.quickbite.app-main-63:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_fragment_profile.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_component_empty_state.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/component_empty_state.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_activity_main.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_item_category.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/item_category.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_component_loading.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/component_loading.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_item_favorite.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/item_favorite.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_component_search_bar.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/component_search_bar.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/drawable_chip_background.xml.flat",
+        "source": "com.quickbite.app-main-63:/drawable/chip_background.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_component_meal_card.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/component_meal_card.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.quickbite.app-main-63:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.quickbite.app-main-63:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_fragment_home.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_item_ingredient.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/item_ingredient.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_fragment_favorites.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/drawable_placeholder_meal.xml.flat",
+        "source": "com.quickbite.app-main-63:/drawable/placeholder_meal.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.quickbite.app-main-63:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.quickbite.app-merged_res-61:/layout_activity_login.xml.flat",
+        "source": "com.quickbite.app-main-63:/layout/activity_login.xml"
+    }
+]

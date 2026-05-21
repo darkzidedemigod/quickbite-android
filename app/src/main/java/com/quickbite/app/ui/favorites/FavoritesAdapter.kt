@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.quickbite.app.R
 import com.quickbite.app.data.models.Meal
-import com.quickbite.app.databinding.ComponentMealCardBinding
 import com.quickbite.app.databinding.ItemFavoriteBinding
 
 class FavoritesAdapter(

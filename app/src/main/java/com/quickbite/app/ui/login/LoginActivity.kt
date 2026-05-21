@@ -10,6 +10,7 @@ import com.quickbite.app.QuickBiteApp
 import com.quickbite.app.data.wrapper.Resource
 import com.quickbite.app.databinding.ActivityLoginBinding
 import com.quickbite.app.ui.main.MainActivity
+import com.quickbite.app.viewmodels.LoginViewModel
 import javax.inject.Inject
 
 class LoginActivity : AppCompatActivity() {
