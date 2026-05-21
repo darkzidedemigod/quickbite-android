@@ -59,6 +59,7 @@ id favoritesRecyclerView
 id favoritesTitle
 id featuredLabel
 id featuredRecyclerView
+id featuredSection
 id firstNameError
 id firstNameInput
 id firstNameLayout
@@ -95,11 +96,10 @@ id passwordError
 id passwordInput
 id passwordLayout
 id primaryButton
-id profileAvatar
-id profileDisplayName
 id profileDivider
 id profileEmail
 id profileFragment
+id profileName
 id profileTitle
 id registerButton
 id registerLink

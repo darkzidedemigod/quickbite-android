@@ -76,10 +76,6 @@
         "source": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-main-66:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.quickbite.app-debug-64:/layout_fragment_home.xml.flat",
-        "source": "com.quickbite.app-main-66:/layout/fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-debug-64:\\layout_fragment_favorites.xml.flat",
         "source": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-main-66:\\layout\\fragment_favorites.xml"
     },
@@ -98,6 +94,10 @@
     {
         "merged": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-debug-64:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
         "source": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-main-66:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.quickbite.app-debug-64:/layout_fragment_profile.xml.flat",
+        "source": "com.quickbite.app-main-66:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-debug-64:\\mipmap-xxhdpi_ic_launcher.webp.flat",

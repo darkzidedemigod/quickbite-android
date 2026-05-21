@@ -18,29 +18,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/profileAvatar"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:layout_marginTop="32dp"
-        android:src="@android:drawable/ic_menu_gallery"
-        android:importantForAccessibility="no"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/profileTitle"
-        app:tint="@color/primary" />
-
     <TextView
-        android:id="@+id/profileDisplayName"
+        android:id="@+id/profileName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
         android:textColor="@color/text_primary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/profileAvatar"
-        tools:text="QuickBite User" />
+        app:layout_constraintTop_toBottomOf="@id/profileTitle"
+        tools:text="John Doe" />
 
     <TextView
         android:id="@+id/profileEmail"
@@ -51,7 +39,7 @@
         android:textColor="@color/text_secondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/profileDisplayName"
+        app:layout_constraintTop_toBottomOf="@id/profileName"
         tools:text="user@quickbite.com" />
 
     <View

@@ -4,6 +4,7 @@ package com.quickbite.app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -40,6 +41,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final RecyclerView featuredRecyclerView;
 
   @NonNull
+  public final LinearLayout featuredSection;
+
+  @NonNull
   public final LoadingView loadingView;
 
   @NonNull
@@ -54,14 +58,16 @@ public final class FragmentHomeBinding implements ViewBinding {
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView categoriesLabel,
       @NonNull RecyclerView categoriesRecyclerView, @NonNull EmptyStateView emptyStateView,
       @NonNull TextView featuredLabel, @NonNull RecyclerView featuredRecyclerView,
-      @NonNull LoadingView loadingView, @NonNull SearchBarView searchBar,
-      @NonNull RecyclerView searchResultsRecyclerView, @NonNull SwipeRefreshLayout swipeRefresh) {
+      @NonNull LinearLayout featuredSection, @NonNull LoadingView loadingView,
+      @NonNull SearchBarView searchBar, @NonNull RecyclerView searchResultsRecyclerView,
+      @NonNull SwipeRefreshLayout swipeRefresh) {
     this.rootView = rootView;
     this.categoriesLabel = categoriesLabel;
     this.categoriesRecyclerView = categoriesRecyclerView;
     this.emptyStateView = emptyStateView;
     this.featuredLabel = featuredLabel;
     this.featuredRecyclerView = featuredRecyclerView;
+    this.featuredSection = featuredSection;
     this.loadingView = loadingView;
     this.searchBar = searchBar;
     this.searchResultsRecyclerView = searchResultsRecyclerView;
@@ -125,6 +131,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.featuredSection;
+      LinearLayout featuredSection = ViewBindings.findChildViewById(rootView, id);
+      if (featuredSection == null) {
+        break missingId;
+      }
+
       id = R.id.loadingView;
       LoadingView loadingView = ViewBindings.findChildViewById(rootView, id);
       if (loadingView == null) {
@@ -150,8 +162,8 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((ConstraintLayout) rootView, categoriesLabel,
-          categoriesRecyclerView, emptyStateView, featuredLabel, featuredRecyclerView, loadingView,
-          searchBar, searchResultsRecyclerView, swipeRefresh);
+          categoriesRecyclerView, emptyStateView, featuredLabel, featuredRecyclerView,
+          featuredSection, loadingView, searchBar, searchResultsRecyclerView, swipeRefresh);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,7 +4,8 @@ A modern food discovery Android application built with Kotlin, MVVM architecture
 
 ## Features
 
-- **Authentication**: Mock login with email/password validation
+- **Authentication**: User registration and login via Firebase Authentication (email/password)
+- **User Profiles**: Store and retrieve user profile data (first name, last name, email) using Firebase Firestore
 - **Home Screen**: Browse meal categories and featured meals with search functionality
 - **Meal Detail**: View meal images, ingredients, instructions, and favorite meals
 - **Favorites**: Save and manage favorite meals
@@ -19,6 +20,8 @@ A modern food discovery Android application built with Kotlin, MVVM architecture
 - **Reactive**: RxJava 3 + RxKotlin
 - **Image Loading**: Glide
 - **UI**: Material Design Components, ViewBinding, Navigation Component
+- **Authentication**: Firebase Authentication
+- **Database**: Firebase Firestore
 - **Testing**: JUnit, Mockito, MockWebServer
 
 ## Project Structure
@@ -127,7 +130,7 @@ Every data request follows this pattern using the `Resource<T>` sealed class:
 | Dagger | 2.50 | Dependency injection |
 | RxJava 3 | 3.1.8 | Reactive programming |
 | Glide | 4.16.0 | Image loading |
-| Firebase BOM | 32.7.2 | Analytics (optional) |
+| Firebase BOM | 32.7.2 | Authentication, Firestore, Analytics |
 | Material | 1.11.0 | Material Design |
 | Navigation | 2.7.7 | Screen navigation |
 | Lifecycle | 2.7.0 | ViewModel + LiveData |
@@ -158,12 +161,6 @@ This app uses [TheMealDB API](https://www.themealdb.com/api.php):
 
 - `GET /categories.php` — Fetch all meal categories
 - `GET /search.php?s={query}` — Search meals by name
-
-## Login Credentials (Mock)
-
-The app uses mock authentication:
-- **Email**: Any valid email format (e.g., `user@example.com`)
-- **Password**: Minimum 6 characters
 
 ## License
 

@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import com.quickbite.app.QuickBiteApp
@@ -48,7 +49,15 @@ class ProfileFragment : Fragment() {
     private fun setupObservers() {
         profileViewModel.user.observe(viewLifecycleOwner, Observer { user ->
             if (user != null) {
-                binding.profileDisplayName.text = user.displayName
+                val fullName = buildString {
+                    if (user.firstName.isNotEmpty()) append(user.firstName)
+                    if (user.lastName.isNotEmpty()) {
+                        if (isNotEmpty()) append(" ")
+                        append(user.lastName)
+                    }
+                    if (isEmpty()) append(user.displayName)
+                }
+                binding.profileName.text = fullName
                 binding.profileEmail.text = user.email
             }
         })
@@ -60,8 +69,18 @@ class ProfileFragment : Fragment() {
             navigateToLogin()
         }
 
+        // Initialize switch from saved preference
+        val prefs = requireContext().getSharedPreferences("theme_prefs", 0)
+        val isDark = prefs.getBoolean("dark_mode", false)
+        binding.themeSwitch.isChecked = isDark
+
         binding.themeSwitch.setOnCheckedChangeListener { _, isChecked ->
-            // Theme toggle placeholder
+            prefs.edit().putBoolean("dark_mode", isChecked).apply()
+            if (isChecked) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            } else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            }
         }
     }
 

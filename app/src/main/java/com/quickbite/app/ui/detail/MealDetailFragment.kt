@@ -11,9 +11,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.quickbite.app.QuickBiteApp
 import com.quickbite.app.R
+import com.quickbite.app.data.models.Meal
 import com.quickbite.app.data.wrapper.Resource
 import com.quickbite.app.databinding.FragmentDetailBinding
 import com.quickbite.app.di.ViewModelFactory
+import com.quickbite.app.utilities.QuickBitesSingleton
 import com.quickbite.app.viewmodels.MealDetailViewModel
 import javax.inject.Inject
 
@@ -49,7 +51,9 @@ class MealDetailFragment : Fragment() {
         setupObservers()
 
         val mealId = arguments?.getString("mealId") ?: return
-        detailViewModel.loadMeal(mealId)
+        //detailViewModel.loadMeal(mealId)
+        val selMeal: Meal = QuickBitesSingleton.selectedMeal!!
+        bindMeal(selMeal)
     }
 
     private fun setupObservers() {
@@ -82,7 +86,7 @@ class MealDetailFragment : Fragment() {
         })
     }
 
-    private fun bindMeal(meal: com.quickbite.app.data.models.Meal) {
+    private fun bindMeal(meal: Meal) {
         Glide.with(this)
             .load(meal.strMealThumb)
             .placeholder(R.drawable.placeholder_meal)

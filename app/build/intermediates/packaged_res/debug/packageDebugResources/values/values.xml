@@ -13,8 +13,8 @@
     <color name="on_primary">#FFFFFFFF</color>
     <color name="on_secondary">#FF000000</color>
     <color name="on_surface">#FF1C1B1F</color>
-    <color name="primary">#FF6200EE</color>
-    <color name="primary_variant">#FF3700B3</color>
+    <color name="primary">#fd9b09</color>
+    <color name="primary_variant">#f5640a</color>
     <color name="secondary">#FF03DAC5</color>
     <color name="secondary_variant">#FF018786</color>
     <color name="surface">#FFFFFFFF</color>
@@ -44,7 +44,7 @@
     <string name="last_name_label">Last Name</string>
     <string name="login_button">Sign In</string>
     <string name="login_error">Invalid email or password</string>
-    <string name="login_loading">Signing in...</string>
+    <string name="login_loading">Loading Data</string>
     <string name="login_subtitle">Discover delicious meals</string>
     <string name="login_title">Welcome to QuickBite</string>
     <string name="logout_button">Logout</string>
@@ -61,7 +61,7 @@
     <string name="register_title">Create Account</string>
     <string name="remove_favorite">Remove from favorites</string>
     <string name="retry_button">Retry</string>
-    <string name="search_hint">Search meals...</string>
+    <string name="search_hint">Search meals</string>
     <style name="ShapeAppearanceOverlay.App.CornerSize50" parent="">
         <item name="cornerSize">50%</item>
     </style>

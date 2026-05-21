@@ -3454,6 +3454,7 @@ id favoritesRecyclerView
 id favoritesTitle
 id featuredLabel
 id featuredRecyclerView
+id featuredSection
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3670,11 +3671,10 @@ id position
 id postLayout
 id pressed
 id primaryButton
-id profileAvatar
-id profileDisplayName
 id profileDivider
 id profileEmail
 id profileFragment
+id profileName
 id profileTitle
 id progress_circular
 id progress_horizontal

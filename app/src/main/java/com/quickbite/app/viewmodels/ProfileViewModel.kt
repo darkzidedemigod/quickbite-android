@@ -3,8 +3,10 @@ package com.quickbite.app.viewmodels
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.quickbite.app.data.models.User
 import com.quickbite.app.data.repository.AuthRepository
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 class ProfileViewModel @Inject constructor(
@@ -15,7 +17,9 @@ class ProfileViewModel @Inject constructor(
     val user: LiveData<User?> = _user
 
     fun loadUser() {
-        _user.value = authRepository.getCurrentUser()
+        viewModelScope.launch {
+            _user.value = authRepository.fetchUserProfile()
+        }
     }
 
     fun logout() {

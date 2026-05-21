@@ -6,11 +6,11 @@
     <string name="email_label">Email</string>
     <string name="password_label">Password</string>
     <string name="login_button">Sign In</string>
-    <string name="login_loading">Signing in...</string>
+    <string name="login_loading">Loading Data</string>
     <string name="email_error">Please enter a valid email</string>
     <string name="password_error">Password must be at least 6 characters</string>
     <string name="login_error">Invalid email or password</string>
-    <string name="search_hint">Search meals...</string>
+    <string name="search_hint">Search meals</string>
     <string name="categories_title">Categories</string>
     <string name="featured_meals_title">Featured Meals</string>
     <string name="ingredients_title">Ingredients</string>

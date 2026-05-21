@@ -1,15 +1,15 @@
 [
     {
-        "merged": "com.quickbite.app-mergeDebugResources-63:/layout/fragment_home.xml",
-        "source": "com.quickbite.app-main-66:/layout/fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-mergeDebugResources-63:\\layout\\fragment_detail.xml",
         "source": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-main-66:\\layout\\fragment_detail.xml"
     },
     {
         "merged": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-mergeDebugResources-63:\\layout\\component_loading.xml",
         "source": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-main-66:\\layout\\component_loading.xml"
+    },
+    {
+        "merged": "com.quickbite.app-mergeDebugResources-63:/layout/fragment_profile.xml",
+        "source": "com.quickbite.app-main-66:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\Darkzide Demigod\\.gradle\\daemon\\9.3.1\\com.quickbite.app-mergeDebugResources-63:\\layout\\activity_login.xml",

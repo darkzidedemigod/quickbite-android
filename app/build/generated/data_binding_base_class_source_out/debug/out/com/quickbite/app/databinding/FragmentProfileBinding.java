@@ -4,7 +4,6 @@ package com.quickbite.app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -27,16 +26,13 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final MaterialButton logoutButton;
 
   @NonNull
-  public final ImageView profileAvatar;
-
-  @NonNull
-  public final TextView profileDisplayName;
-
-  @NonNull
   public final View profileDivider;
 
   @NonNull
   public final TextView profileEmail;
+
+  @NonNull
+  public final TextView profileName;
 
   @NonNull
   public final TextView profileTitle;
@@ -48,16 +44,14 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final SwitchMaterial themeSwitch;
 
   private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull MaterialButton logoutButton, @NonNull ImageView profileAvatar,
-      @NonNull TextView profileDisplayName, @NonNull View profileDivider,
-      @NonNull TextView profileEmail, @NonNull TextView profileTitle,
+      @NonNull MaterialButton logoutButton, @NonNull View profileDivider,
+      @NonNull TextView profileEmail, @NonNull TextView profileName, @NonNull TextView profileTitle,
       @NonNull LinearLayout themeRow, @NonNull SwitchMaterial themeSwitch) {
     this.rootView = rootView;
     this.logoutButton = logoutButton;
-    this.profileAvatar = profileAvatar;
-    this.profileDisplayName = profileDisplayName;
     this.profileDivider = profileDivider;
     this.profileEmail = profileEmail;
+    this.profileName = profileName;
     this.profileTitle = profileTitle;
     this.themeRow = themeRow;
     this.themeSwitch = themeSwitch;
@@ -96,18 +90,6 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.profileAvatar;
-      ImageView profileAvatar = ViewBindings.findChildViewById(rootView, id);
-      if (profileAvatar == null) {
-        break missingId;
-      }
-
-      id = R.id.profileDisplayName;
-      TextView profileDisplayName = ViewBindings.findChildViewById(rootView, id);
-      if (profileDisplayName == null) {
-        break missingId;
-      }
-
       id = R.id.profileDivider;
       View profileDivider = ViewBindings.findChildViewById(rootView, id);
       if (profileDivider == null) {
@@ -117,6 +99,12 @@ public final class FragmentProfileBinding implements ViewBinding {
       id = R.id.profileEmail;
       TextView profileEmail = ViewBindings.findChildViewById(rootView, id);
       if (profileEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.profileName;
+      TextView profileName = ViewBindings.findChildViewById(rootView, id);
+      if (profileName == null) {
         break missingId;
       }
 
@@ -138,8 +126,8 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ConstraintLayout) rootView, logoutButton, profileAvatar,
-          profileDisplayName, profileDivider, profileEmail, profileTitle, themeRow, themeSwitch);
+      return new FragmentProfileBinding((ConstraintLayout) rootView, logoutButton, profileDivider,
+          profileEmail, profileName, profileTitle, themeRow, themeSwitch);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

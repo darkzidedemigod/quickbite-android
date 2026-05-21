@@ -13,6 +13,7 @@ import com.quickbite.app.QuickBiteApp
 import com.quickbite.app.data.wrapper.Resource
 import com.quickbite.app.databinding.FragmentHomeBinding
 import com.quickbite.app.di.ViewModelFactory
+import com.quickbite.app.utilities.QuickBitesSingleton
 import com.quickbite.app.viewmodels.HomeViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import javax.inject.Inject
@@ -31,6 +32,7 @@ class HomeFragment : Fragment() {
         homeViewModel.searchMeals(category.strCategory)
     })
     private val featuredAdapter = MealAdapter(onMealClick = { meal ->
+        QuickBitesSingleton.selectedMeal = meal
         val bundle = Bundle().apply {
             putString("mealId", meal.idMeal)
         }
@@ -40,6 +42,7 @@ class HomeFragment : Fragment() {
         )
     })
     private val searchResultsAdapter = MealAdapter(onMealClick = { meal ->
+        QuickBitesSingleton.selectedMeal = meal
         val bundle = Bundle().apply {
             putString("mealId", meal.idMeal)
         }

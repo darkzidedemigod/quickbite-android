@@ -3453,6 +3453,7 @@ int id favoritesRecyclerView 0x7f0800dc
 int id favoritesTitle 0x7f0800dd
 int id featuredLabel 0x7f0800de
 int id featuredRecyclerView 0x7f0800df
+int id featuredSection 0x7f080261
 int id fill 0x7f0800e0
 int id fill_horizontal 0x7f0800e1
 int id fill_vertical 0x7f0800e2
@@ -3669,11 +3670,10 @@ int id position 0x7f0801b4
 int id postLayout 0x7f0801b5
 int id pressed 0x7f0801b6
 int id primaryButton 0x7f0801b7
-int id profileAvatar 0x7f0801b8
-int id profileDisplayName 0x7f0801b9
 int id profileDivider 0x7f0801ba
 int id profileEmail 0x7f0801bb
 int id profileFragment 0x7f0801bc
+int id profileName 0x7f080262
 int id profileTitle 0x7f0801bd
 int id progress_circular 0x7f0801be
 int id progress_horizontal 0x7f0801bf

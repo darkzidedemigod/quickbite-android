@@ -25,6 +25,8 @@ interface AuthRepository {
     suspend fun loginUser(email: String, password: String): Resource<User>
     
     fun getCurrentUser(): User?
+
+    suspend fun fetchUserProfile(): User?
     
     fun logout()
 }
@@ -99,6 +101,27 @@ class AuthRepositoryImpl @Inject constructor(
                 displayName = it.displayName ?: "",
                 isLoggedIn = true
             )
+        }
+    }
+
+    override suspend fun fetchUserProfile(): User? {
+        val firebaseUser = firebaseAuth.currentUser ?: return null
+        return try {
+            val document = firestore.collection("users")
+                .document(firebaseUser.uid)
+                .get()
+                .await()
+            val firstName = document.getString("firstName") ?: ""
+            val lastName = document.getString("lastName") ?: ""
+            User(
+                email = firebaseUser.email ?: "",
+                displayName = firebaseUser.displayName ?: "",
+                firstName = firstName,
+                lastName = lastName,
+                isLoggedIn = true
+            )
+        } catch (e: Exception) {
+            getCurrentUser()
         }
     }
 
