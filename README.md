@@ -16,11 +16,11 @@ A modern food discovery Android application built with Kotlin, MVVM architecture
 - **Language**: Kotlin
 - **Architecture**: MVVM (Model-View-ViewModel)
 - **DI**: Dagger 2
-- **Networking**: Retrofit 2 + OkHttp
-- **Reactive**: RxJava 3 + RxKotlin
+- **Networking**: Retrofit 2 + OkHttp + Gson
+- **Reactive**: RxJava 3 + RxKotlin + RxAndroid
 - **Image Loading**: Glide
-- **UI**: Material Design Components, ViewBinding, Navigation Component
-- **Authentication**: Firebase Authentication
+- **UI**: Material Design Components, ViewBinding, Navigation Component, SwipeRefreshLayout
+- **Authentication**: Firebase Authentication + Google Sign-In + Credential Manager
 - **Database**: Firebase Firestore
 - **Testing**: JUnit, Mockito, MockWebServer
 
@@ -84,10 +84,10 @@ Every data request follows this pattern using the `Resource<T>` sealed class:
 
 ### Prerequisites
 
-- Android Studio Hedgehog (2023.1.1) or later
+- Android Studio Meerkat (2024.3.1) or later
 - JDK 17
-- Android SDK 34
-- Gradle 8.4
+- Android SDK 35
+- Gradle 9.3.1
 
 ### Steps
 
@@ -124,16 +124,22 @@ Every data request follows this pattern using the `Resource<T>` sealed class:
 
 | Dependency | Version | Purpose |
 |------------|---------|---------|
-| Kotlin | 1.9.22 | Primary language |
-| AGP | 8.2.0 | Android build tools |
+| Kotlin | 2.1.0 | Primary language |
+| AGP | 9.1.1 | Android build tools |
 | Retrofit | 2.11.0 | HTTP networking |
-| Dagger | 2.50 | Dependency injection |
-| RxJava 3 | 3.1.8 | Reactive programming |
+| OkHttp | 4.12.0 | HTTP client + logging interceptor |
+| Gson | 2.11.0 | JSON serialization/deserialization |
+| Dagger | 2.59.2 | Dependency injection |
+| RxJava 3 | 3.1.9 | Reactive programming |
+| RxAndroid | 3.0.2 | Android reactive bindings |
+| RxKotlin | 3.0.1 | Kotlin reactive extensions |
 | Glide | 4.16.0 | Image loading |
-| Firebase BOM | 32.7.2 | Authentication, Firestore, Analytics |
-| Material | 1.11.0 | Material Design |
-| Navigation | 2.7.7 | Screen navigation |
-| Lifecycle | 2.7.0 | ViewModel + LiveData |
+| Firebase BOM | 33.7.0 | Authentication, Firestore, Analytics |
+| Play Services Auth | 21.3.0 | Google Sign-In |
+| Credential Manager | 1.3.0 | Credential management |
+| Material | 1.12.0 | Material Design |
+| Navigation | 2.8.5 | Screen navigation |
+| Lifecycle | 2.8.7 | ViewModel + LiveData |
 
 ## Testing
 
