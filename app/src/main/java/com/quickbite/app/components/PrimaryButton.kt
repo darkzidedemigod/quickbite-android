@@ -19,6 +19,7 @@ class PrimaryButton @JvmOverloads constructor(
     private val progressIndicator: CircularProgressIndicator
 
     private var isLoading: Boolean = false
+    private var isManualEnabled: Boolean = true
     private var buttonText: String = ""
 
     init {
@@ -36,6 +37,8 @@ class PrimaryButton @JvmOverloads constructor(
                 recycle()
             }
         }
+        
+        updateButtonState()
     }
 
     fun setText(text: String) {
@@ -49,19 +52,22 @@ class PrimaryButton @JvmOverloads constructor(
         isLoading = loading
         if (loading) {
             button.text = ""
-            button.isEnabled = false
             progressIndicator.visibility = VISIBLE
         } else {
             button.text = buttonText
-            button.isEnabled = true
             progressIndicator.visibility = GONE
         }
+        updateButtonState()
     }
 
     fun setButtonEnabled(enabled: Boolean) {
-        if (!isLoading) {
-            button.isEnabled = enabled
-        }
+        isManualEnabled = enabled
+        updateButtonState()
+    }
+
+    private fun updateButtonState() {
+        // Button is only enabled if not loading AND manually enabled by the form
+        button.isEnabled = !isLoading && isManualEnabled
     }
 
     fun setOnButtonClickListener(listener: OnClickListener) {

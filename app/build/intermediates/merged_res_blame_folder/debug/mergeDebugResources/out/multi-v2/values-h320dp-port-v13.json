@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.quickbite.app-mergeDebugResources-59:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.quickbite.app-mergeDebugResources-62:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Darkzide Demigod\\.gradle\\caches\\8.13\\transforms\\4a94c8299c0b1abfdef91337fdf6cbd7\\transformed\\material-1.14.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\Darkzide Demigod\\.gradle\\caches\\9.3.1\\transforms\\b725616423d349b283fba65fe003bc6f\\workspace\\transformed\\material-1.12.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

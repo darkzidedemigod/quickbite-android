@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.quickbite.app-mergeDebugResources-59:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.quickbite.app-mergeDebugResources-62:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Darkzide Demigod\\.gradle\\caches\\8.13\\transforms\\eb6878fc3b64dd2d536c237ba1f664bc\\transformed\\appcompat-1.7.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\Darkzide Demigod\\.gradle\\caches\\9.3.1\\transforms\\c24e55f4cc68cc0f879baffd82ac2626\\workspace\\transformed\\appcompat-1.7.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

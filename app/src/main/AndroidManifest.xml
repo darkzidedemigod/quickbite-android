@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.quickbite.app">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <queries>
+        <!-- Package visibility for Google Play Services and Play Store -->
+        <package android:name="com.google.android.gms" />
+        <package android:name="com.android.vending" />
+
+        <!-- Intent queries for Auth, Identity, and Credential Manager -->
+        <intent>
+            <action android:name="com.google.android.gms.auth.api.signin.SERVICE" />
+        </intent>
+        <intent>
+            <action android:name="com.google.android.gms.auth.api.identity.service.signin.START" />
+        </intent>
+        <intent>
+            <action android:name="com.google.android.gms.auth.api.identity.service.credentialsavings.START" />
+        </intent>
+        <intent>
+            <action android:name="com.google.android.gms.auth.api.identity.service.authorization.START" />
+        </intent>
+        <!-- Added for broader GMS broker support -->
+        <intent>
+            <action android:name="com.google.android.gms.plus.action.MANAGE_APPS" />
+        </intent>
+    </queries>
 
     <application
         android:name=".QuickBiteApp"
@@ -13,6 +39,11 @@
         android:theme="@style/Theme.QuickBite"
         tools:targetApi="34">
 
+        <!-- Mandatory for GMS broker identification -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
             android:name=".ui.login.LoginActivity"
             android:exported="true"
@@ -22,6 +53,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.register.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.QuickBite" />
 
         <activity
             android:name=".ui.main.MainActivity"

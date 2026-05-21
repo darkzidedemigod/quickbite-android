@@ -1,7 +1,9 @@
 package com.quickbite.app.viewmodels;
 
+import com.quickbite.app.data.repository.AuthRepository;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
+import dagger.internal.Provider;
 import dagger.internal.QualifierMetadata;
 import dagger.internal.ScopeMetadata;
 import javax.annotation.processing.Generated;
@@ -23,20 +25,22 @@ import javax.annotation.processing.Generated;
     "nullness:initialization.field.uninitialized"
 })
 public final class LoginViewModel_Factory implements Factory<LoginViewModel> {
+  private final Provider<AuthRepository> authRepositoryProvider;
+
+  private LoginViewModel_Factory(Provider<AuthRepository> authRepositoryProvider) {
+    this.authRepositoryProvider = authRepositoryProvider;
+  }
+
   @Override
   public LoginViewModel get() {
-    return newInstance();
+    return newInstance(authRepositoryProvider.get());
   }
 
-  public static LoginViewModel_Factory create() {
-    return InstanceHolder.INSTANCE;
+  public static LoginViewModel_Factory create(Provider<AuthRepository> authRepositoryProvider) {
+    return new LoginViewModel_Factory(authRepositoryProvider);
   }
 
-  public static LoginViewModel newInstance() {
-    return new LoginViewModel();
-  }
-
-  private static final class InstanceHolder {
-    static final LoginViewModel_Factory INSTANCE = new LoginViewModel_Factory();
+  public static LoginViewModel newInstance(AuthRepository authRepository) {
+    return new LoginViewModel(authRepository);
   }
 }

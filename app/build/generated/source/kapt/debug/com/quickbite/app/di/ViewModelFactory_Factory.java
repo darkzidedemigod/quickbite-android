@@ -1,5 +1,6 @@
 package com.quickbite.app.di;
 
+import com.quickbite.app.data.repository.AuthRepository;
 import com.quickbite.app.data.repository.MealRepository;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
@@ -27,20 +28,26 @@ import javax.annotation.processing.Generated;
 public final class ViewModelFactory_Factory implements Factory<ViewModelFactory> {
   private final Provider<MealRepository> mealRepositoryProvider;
 
-  private ViewModelFactory_Factory(Provider<MealRepository> mealRepositoryProvider) {
+  private final Provider<AuthRepository> authRepositoryProvider;
+
+  private ViewModelFactory_Factory(Provider<MealRepository> mealRepositoryProvider,
+      Provider<AuthRepository> authRepositoryProvider) {
     this.mealRepositoryProvider = mealRepositoryProvider;
+    this.authRepositoryProvider = authRepositoryProvider;
   }
 
   @Override
   public ViewModelFactory get() {
-    return newInstance(mealRepositoryProvider.get());
+    return newInstance(mealRepositoryProvider.get(), authRepositoryProvider.get());
   }
 
-  public static ViewModelFactory_Factory create(Provider<MealRepository> mealRepositoryProvider) {
-    return new ViewModelFactory_Factory(mealRepositoryProvider);
+  public static ViewModelFactory_Factory create(Provider<MealRepository> mealRepositoryProvider,
+      Provider<AuthRepository> authRepositoryProvider) {
+    return new ViewModelFactory_Factory(mealRepositoryProvider, authRepositoryProvider);
   }
 
-  public static ViewModelFactory newInstance(MealRepository mealRepository) {
-    return new ViewModelFactory(mealRepository);
+  public static ViewModelFactory newInstance(MealRepository mealRepository,
+      AuthRepository authRepository) {
+    return new ViewModelFactory(mealRepository, authRepository);
   }
 }

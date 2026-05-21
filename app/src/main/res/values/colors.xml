@@ -19,4 +19,5 @@
     <color name="favorite_inactive">#FF9E9E9E</color>
     <color name="chip_background">#FFF3E5F5</color>
     <color name="card_background">#FFFFFFFF</color>
+    <color name="color_white">#FFFFFFFF</color>
 </resources>

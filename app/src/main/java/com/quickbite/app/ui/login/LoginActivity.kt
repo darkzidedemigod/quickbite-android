@@ -2,14 +2,15 @@ package com.quickbite.app.ui.login
 
 import android.content.Intent
 import android.os.Bundle
-import android.text.TextUtils
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
+import com.google.android.material.snackbar.Snackbar
 import com.quickbite.app.QuickBiteApp
 import com.quickbite.app.data.wrapper.Resource
 import com.quickbite.app.databinding.ActivityLoginBinding
 import com.quickbite.app.ui.main.MainActivity
+import com.quickbite.app.ui.register.RegisterActivity
 import com.quickbite.app.viewmodels.LoginViewModel
 import javax.inject.Inject
 
@@ -27,8 +28,18 @@ class LoginActivity : AppCompatActivity() {
 
         (application as QuickBiteApp).appComponent.inject(this)
 
+        handleIntentExtras()
         setupObservers()
         setupListeners()
+    }
+
+    private fun handleIntentExtras() {
+        intent.getStringExtra("EXTRA_EMAIL")?.let { email ->
+            binding.emailInput.setText(email)
+        }
+        intent.getStringExtra("EXTRA_MESSAGE")?.let { message ->
+            Snackbar.make(binding.root, message, Snackbar.LENGTH_LONG).show()
+        }
     }
 
     private fun setupObservers() {
@@ -49,8 +60,7 @@ class LoginActivity : AppCompatActivity() {
                     binding.loginButton.setLoading(false)
                     binding.emailInput.isEnabled = true
                     binding.passwordInput.isEnabled = true
-                    binding.emailError.visibility = View.VISIBLE
-                    binding.emailError.text = state.message
+                    Snackbar.make(binding.root, state.message, Snackbar.LENGTH_LONG).show()
                 }
                 else -> {}
             }
@@ -73,6 +83,10 @@ class LoginActivity : AppCompatActivity() {
             val password = binding.passwordInput.text?.toString()?.trim() ?: ""
             loginViewModel.login(email, password)
         }
+
+        binding.registerLink.setOnClickListener {
+            navigateToRegister()
+        }
     }
 
     private fun navigateToMain() {
@@ -80,5 +94,10 @@ class LoginActivity : AppCompatActivity() {
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
         finish()
+    }
+
+    private fun navigateToRegister() {
+        val intent = Intent(this, RegisterActivity::class.java)
+        startActivity(intent)
     }
 }

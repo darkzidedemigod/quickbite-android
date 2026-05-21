@@ -24,6 +24,7 @@ class SearchBarView @JvmOverloads constructor(
     private val searchInput: TextInputEditText
     private val searchLayout: TextInputLayout
     private val searchSubject = PublishSubject.create<String>()
+    private var isUpdatingInternally = false
 
     init {
         val inflater = LayoutInflater.from(context)
@@ -36,7 +37,9 @@ class SearchBarView @JvmOverloads constructor(
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
 
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                searchSubject.onNext(s?.toString() ?: "")
+                if (!isUpdatingInternally) {
+                    searchSubject.onNext(s?.toString() ?: "")
+                }
             }
 
             override fun afterTextChanged(s: Editable?) {}
@@ -56,6 +59,17 @@ class SearchBarView @JvmOverloads constructor(
         return searchSubject
             .debounce(300, TimeUnit.MILLISECONDS)
             .distinctUntilChanged()
+    }
+
+    fun setText(text: String, triggerObservable: Boolean = true) {
+        if (!triggerObservable) {
+            isUpdatingInternally = true
+        }
+        searchInput.setText(text)
+        searchInput.setSelection(text.length)
+        if (!triggerObservable) {
+            isUpdatingInternally = false
+        }
     }
 
     fun setHint(hint: String) {

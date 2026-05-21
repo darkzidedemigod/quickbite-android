@@ -1,6 +1,7 @@
 package com.quickbite.app.ui.home
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,6 +14,7 @@ import com.quickbite.app.data.wrapper.Resource
 import com.quickbite.app.databinding.FragmentHomeBinding
 import com.quickbite.app.di.ViewModelFactory
 import com.quickbite.app.viewmodels.HomeViewModel
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import javax.inject.Inject
 
 class HomeFragment : Fragment() {
@@ -25,6 +27,7 @@ class HomeFragment : Fragment() {
 
     private lateinit var homeViewModel: HomeViewModel
     private val categoryAdapter = CategoryAdapter(onCategoryClick = { category ->
+        binding.searchBar.setText(category.strCategory, triggerObservable = false)
         homeViewModel.searchMeals(category.strCategory)
     })
     private val featuredAdapter = MealAdapter(onMealClick = { meal ->
@@ -81,9 +84,12 @@ class HomeFragment : Fragment() {
 
     private fun setupSearchBar() {
         binding.searchBar.getSearchObservable()
-            .subscribe { query ->
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe({ query ->
                 homeViewModel.searchMeals(query)
-            }
+            }, { error ->
+                Log.e("HomeFragment", "Error during search", error)
+            })
 
         binding.searchBar.setHint(com.quickbite.app.R.string.search_hint)
     }
@@ -100,7 +106,6 @@ class HomeFragment : Fragment() {
         homeViewModel.categoriesState.observe(viewLifecycleOwner, Observer { resource ->
             when (resource) {
                 is Resource.Loading -> {
-                    binding.loadingView.visibility = View.VISIBLE
                     binding.loadingView.show()
                 }
                 is Resource.Success -> {
@@ -123,7 +128,6 @@ class HomeFragment : Fragment() {
         homeViewModel.featuredMeals.observe(viewLifecycleOwner, Observer { resource ->
             when (resource) {
                 is Resource.Loading -> {
-                    binding.loadingView.visibility = View.VISIBLE
                     binding.loadingView.show()
                 }
                 is Resource.Success -> {
@@ -140,25 +144,25 @@ class HomeFragment : Fragment() {
         homeViewModel.searchResults.observe(viewLifecycleOwner, Observer { resource ->
             when (resource) {
                 is Resource.Loading -> {
-                    binding.loadingView.visibility = View.VISIBLE
                     binding.loadingView.show()
+                    binding.featuredSection.visibility = View.GONE
+                    binding.searchResultsRecyclerView.visibility = View.GONE
                 }
                 is Resource.Success -> {
                     binding.loadingView.hide()
                     if (resource.data.isNotEmpty()) {
-                        binding.featuredLabel.visibility = View.GONE
-                        binding.featuredRecyclerView.visibility = View.GONE
+                        binding.featuredSection.visibility = View.GONE
                         binding.searchResultsRecyclerView.visibility = View.VISIBLE
                         searchResultsAdapter.submitList(resource.data)
                     } else {
                         binding.searchResultsRecyclerView.visibility = View.GONE
-                        binding.featuredLabel.visibility = View.VISIBLE
-                        binding.featuredRecyclerView.visibility = View.VISIBLE
+                        binding.featuredSection.visibility = View.VISIBLE
                         searchResultsAdapter.submitList(emptyList())
                     }
                 }
                 is Resource.Error -> {
                     binding.loadingView.hide()
+                    binding.featuredSection.visibility = View.VISIBLE
                 }
                 else -> {}
             }
